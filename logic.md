@@ -6,6 +6,12 @@
 
 ```mermaid
 flowchart TD
-    A-->B
+    start([Sensor])
+    getSensorStatus([Get Sensor Status])
+    checkSensor{has sensor detected}
+
+
+
+    Start-->buttonStatus
 
 ```
